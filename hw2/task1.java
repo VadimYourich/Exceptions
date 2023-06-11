@@ -21,8 +21,7 @@ public class task1 {
                 Scanner scan = new Scanner(System.in);
                 String num = scan.nextLine();
                 Float number = Float.parseFloat(num);
-                System.out.printf("\nВведённое число: " + number);
-                System.out.println("\n");
+                System.out.printf("\nВведённое число: " + number + "\n");
                 break;
             } catch (NumberFormatException e) {
                 System.out.println("Ошибка ввода!");
